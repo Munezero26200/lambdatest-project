@@ -21,4 +21,16 @@ public class HomePage {
         clickLink("Javascript Alerts");
         return new JavaScriptAlertPage(driver);
     }
+    public UploadFilePage clickUploadFileDemo(){
+        clickLink("Upload File Demo");
+        return new UploadFilePage(driver);
+    }
+    public CheckboxPage clickCheckboxDemo(){
+        clickLink("Checkbox Demo");
+        return new CheckboxPage(driver);
+    }
+    public contextMenuPage clickContextMenu(){
+        clickLink("Context Menu");
+        return new contextMenuPage(driver);
+    }
 }
