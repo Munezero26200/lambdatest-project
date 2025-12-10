@@ -33,4 +33,13 @@ public class HomePage {
         clickLink("Context Menu");
         return new contextMenuPage(driver);
     }
+    public IframeDemoPage clickIframeDemo(){
+        clickLink("iFrame Demo");
+        return new IframeDemoPage(driver);
+    }
+    public HoverDemoPage clickHoverDemo(){
+        clickLink("Hover Demo");
+        return new HoverDemoPage(driver);
+    }
+
 }
