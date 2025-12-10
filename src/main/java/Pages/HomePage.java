@@ -41,5 +41,9 @@ public class HomePage {
         clickLink("Hover Demo");
         return new HoverDemoPage(driver);
     }
+    public FileDownloadPage clickFileDownload(){
+        clickLink("File Download");
+        return new FileDownloadPage(driver);
+    }
 
 }
